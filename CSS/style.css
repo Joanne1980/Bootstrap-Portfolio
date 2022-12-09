@@ -1,7 +1,11 @@
 body {
     Font: ariel;
     font-size: 20px;
+    background-color: blueviolet;
 
+}
+.hero {
+    background-color: violet;
 }
 
 .sjc {
@@ -17,3 +21,8 @@ body {
    display: inline-block;
   }
 
+.card {
+    flex-direction: row;
+    align-items: center;
+
+}
