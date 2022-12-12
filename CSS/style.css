@@ -1,11 +1,15 @@
+* {
+    background-color:
+}
+
 body {
     Font: ariel;
     font-size: 20px;
-    background-color: blueviolet;
+    
 
 }
 .hero {
-    background-color: violet;
+    background-color: 
 }
 
 .sjc {
@@ -21,7 +25,7 @@ body {
    display: inline-block;
   }
 
-.card {
+.row {
     flex-direction: row;
     align-items: center;
 
