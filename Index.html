@@ -11,8 +11,8 @@
 </head>
 <body>
     <!---- navbar--->
-    <nav class="Portfolio navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Portfolio</a>
+    <nav class="Portfolio navbar-expand-lg" id="nav">
+        <a class="navbar-brand" href="https://github.com/Joanne1980/Bootstrap-Portfolio.git"><em>Portfolio</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,19 +34,20 @@
           </div>  
         </div> 
          <div class="jumbotron">
-            <div class="hero container">
-              <h1 class="SJC">Sarah J Clarke</h1>
+            <div class="hero container" id="hero"style="./images/hero.1.jpg">
+              <h1 class="SJC"><em>Sarah J Clarke</em></h1>
               <div class="sjc">
               <img src="./Images/sjc1.jpg" alt="Image of Sarah J Clarke">
             </div>
-              <p class="lead">Front End Web Developer.</p>
+              <p>Front End Web Developer.</p>
             </div>
           </div>
       
          <!---Skills Section-->
         <div class="My Skills" id="My-Skills">
-            <h2>My Skills</h2>
-         <ul>
+          <div class="skills container">
+          <h2><em>My Skills</em></h2>
+          <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -54,62 +55,57 @@
             <li>API</li>
             <li>Node.js</li>
             <li>React</li>
-         </ul>
+          </ul>
+          </div>
         </div> 
         <!---work section-->
-        <div class="work" id="Work"><h2>Work</h2>
-        <div class="container-fluid">
+      <div class="work" id="Work"><h2><em>Work</em></h2>
+        <div class="container">
             <div class="row"> 
-              <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-                <div class="card" style="width: 18rem;">
-                    <a href="https://github.com/Joanne1980/prework-study-guide.git"> <img src="./Images/02-portfolio-1.jpg" class="card-img-top" alt="prework study guide"></a>
-                  <div class="card-body">
+                <div class="cardContainer col-sm-12"> 
+                  <div class="card" style="width: 18rem bg-info;">
+                    <a href="https://github.com/Joanne1980/prework-study-guide.git"> <img src="./Images/portfolio1.jpg" class="card-img-top" alt="prework study guide"></a>
+                    <div class="card-body">
                     <h5 class="card-title">Prework Study Guide</h5>
-                    <p class="card-text">This is my first project before I started the bootcamp. .</p>
-                    </div>
-                </div>
-                </div>
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-                <div class="card" style="width: 18rem;">
-                  <a href="https://github.com/Joanne1980/Challenge-week-1-challenge.git"><img src="./images/02-portfolio-2.jpg" class="card-img-top" alt="Challenge week 1"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Challenge Week 1</h5>
-                    <p class="card-text">Challenge from week 1 of the bootcamp.</p>
-                  </div>
-                </div>
-                </div> 
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-                <a class="card" style="width: 18rem;">
-                  <a href="https://github.com/Joanne1980/sarah-j-clarke-portfolio.git"><img src="./images/02-portfolio-3.jpg" class="card-img-top" alt="First attept of a portfolio"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">First Attempt Portfolio</h5>
-                    <p class="card-text">This is the original attempt of a portfolio.</p>
-                    </div>
-                </div>
-                </div>
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-                <div class="card" style="width: 18rem;">
-                  <img src="https://placehold.co/600x400/png" class="card-img-top" alt="Placeholder 600x400">
-                  <div class="card-body">
-                    <h5 class="card-title">Placeholder</h5>
-                    <p class="card-text">Placeholding the space for when I have completed more projects.</p>
-                  </div>
+                    <p class="card-text">This is my first project before I started the bootcamp. It is a study guide to help learn HTML, CSS, Git and JavaScript .</p>
+                  </div>  
                 </div>
             </div>
+        </div>    
+      </div>          
+        <div class="container">
+            <div class="row">
+                <div class="cardContainer col-lg-6 col-md-3 col-sm-6"> 
+                  <div class="card" style="width: 18rem bg-info;">
+                    <a href="https://github.com/Joanne1980/Challenge-week-1-challenge.git"><img src="./images/portfolio2.jpg" class="card-img-top" alt="Challenge week 1"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">Challenge Week 1</h5>
+                    <p class="card-text">Challenge from week 1 of the bootcamp. We were given a webpage which we had to recode using semantic coding but keep the original look of the webpage.</p>
+                    </div>
+                  </div>  
+                </div> 
+                <div class="cardContainer col-lg-6 col-md-3 col-sm-6"> 
+                  <div class="card" style="width: 18rem bg-info;">
+                  <a href="https://github.com/Joanne1980/sarah-j-clarke-portfolio.git"><img src="./images/portfolio3.jpg" class="card-img-top" alt="First attept of a portfolio"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">First Attempt Portfolio</h5>
+                    <p class="card-text">This is the original attempt of a portfolio. This was my first attempt at coding a webpage myself I enjoyed this project and am looking forward to seeing the progress I make each week</p>
+                    </div>
+                  </div>
+                </div>
         </div>
-      </div>     
+        </div> 
+        <br>    
         <!---About Me-->
         <div class="About-me" id="About-Me">
-            <h2>About Me</h2>
-            <p>I have recently trained as a Front End Web Developer and I have found a new passion or this during my training. It was always something that interested me </p>
+            <h2><em>About Me</em></h2>
+            <p>I am a mum to three little girls and they are the main reason why I decided to take a change in career. Web development is something that has always intrigued me and I have wanted to learn to code. I have recently trained as a Front End Web Developer and I have found a new passion or this during my training. I am looking forward to building a full portfolio of projects.</p>
 
         </div>
 
-
-
         <!---Contact-->
-        <footer>
-          <section class="contact" id="Contact">
+      <footer>
+        <section class="contact" id="Contact">
           <h2><em>Contact Me</em></h2>
           <ul>
             <li>Phone: 07928653308</li>

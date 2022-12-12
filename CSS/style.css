@@ -1,23 +1,26 @@
 * {
-    background-color:
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 body {
-    Font: ariel;
     font-size: 20px;
-    
+    padding: 20px;
+    background-color: rgb(242, 195, 148);
+
 
 }
-.hero {
-    background-color: 
+.jumbotron {
+    background-color: rgb(242, 195, 148);
+    display: inline-block;
+    align-items: center;
 }
 
 .sjc {
-    width: 150px;
-    border-radius: 120px;
+    width: 250px;
+    border-radius: 250px;
     overflow: hidden;
     display: inline-block;
-    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
   
   }
   .sjc img {
@@ -25,8 +28,41 @@ body {
    display: inline-block;
   }
 
-.row {
+.row >div {
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 
+}
+.cards {
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(242, 195, 148);
+
+}
+#Contacts a:hover {
+    color: blue;
+    border: 2px solid;
+    box-shadow: 1px;
+}
+#nav {
+    background-color: rgb(242, 195, 148);
+}
+.nav-link{
+    font-style: black;
+}
+.nav-link a:hover {
+    color: blue;
+    border: 2px solid;
+    box-shadow: 1px;
+}
+
+#My-Skills {
+    background-color: rgb(242, 195, 148);
+}
+#Work {
+    background-color: rgb(242, 195, 148);
+}
+#About-Me {
+    border-top: 0,auto;
 }
