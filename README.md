@@ -13,3 +13,10 @@ Work at the moment this is compiled of the projects I have worked on during the 
 About me is a small paragraph about me and what I hope to accomplish in the near future.
 Contact details different ways in which you can contact me.
 
+![alt text](/Images/screenprint1.png?raw=true)
+![alt text](/Images/screenprint2.png?raw=true)
+![alt text](/Images/screenprint3.png?raw=true)
+![alt text](/Images/screenprint4.png?raw=true)
+
+## Licence.
+MIT Licence added please see Git Hub for details.
