@@ -20,3 +20,9 @@ Contact details different ways in which you can contact me.
 
 ## Licence.
 MIT Licence added please see Git Hub for details.
+
+## Github link 
+https://github.com/Joanne1980/Bootstrap-Portfolio
+
+## Deployed webpage
+https://joanne1980.github.io/Bootstrap-Portfolio/
